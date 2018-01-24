@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@android:color/holo_red_dark"
+
+
+    tools:context="com.example.daybox.myapplication.MainActivity">
+
+
+
+        <Button
+            android:id="@+id/dzwonek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/kot"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/kot"
+            android:layout_marginTop="135dp"
+
+            android:backgroundTint="@android:color/holo_green_light"
+            android:text="dzwonek"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="111dp" />
+        <Button
+            android:id="@+id/glock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/dzwonek"
+            android:layout_alignBottom="@+id/dzwonek"
+            android:layout_alignLeft="@+id/oklaski"
+            android:layout_alignStart="@+id/oklaski"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="glock"
+            tools:layout_editor_absoluteX="260dp"
+            tools:layout_editor_absoluteY="111dp" />
+
+        <Button
+            android:id="@+id/kot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/oklaski"
+            android:layout_alignBottom="@+id/oklaski"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="46dp"
+            android:layout_marginStart="46dp"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:text="kot"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="359dp" />
+
+        <Button
+            android:id="@+id/oklaski"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="93dp"
+            android:layout_marginEnd="27dp"
+            android:layout_marginRight="27dp"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:text="oklaski"
+            tools:layout_editor_absoluteX="260dp"
+            tools:layout_editor_absoluteY="359dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/glock"
+            android:layout_alignLeft="@+id/glock"
+            android:layout_alignStart="@+id/glock"
+            app:srcCompat="@drawable/glockk" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="11dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginRight="21dp"
+            android:layout_toLeftOf="@+id/glock"
+            android:layout_toStartOf="@+id/glock"
+            app:srcCompat="@drawable/kott" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView5"
+            android:layout_marginBottom="35dp"
+            android:layout_marginLeft="77dp"
+            android:layout_marginStart="77dp"
+            android:layout_toEndOf="@+id/dzwonek"
+            android:layout_toRightOf="@+id/dzwonek"
+            app:srcCompat="@drawable/oklaskii" />
+
+
+
+        <Button
+            android:id="@+id/playButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/kot"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="61dp"
+            android:text="ODTWORZ" />
+
+    </RelativeLayout>

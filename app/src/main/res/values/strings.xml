@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dzwieki SFX MD</string>
+    <string name="dzwonek">dzwonek</string>
+    <string name="glock">glock</string>
+    <string name="kot">kot</string>
+    <string name="oklaski">oklaski</string>
+    <string name="action_settings">r</string>
+</resources>
